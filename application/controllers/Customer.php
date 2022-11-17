@@ -131,7 +131,7 @@ class Customer extends CI_Controller {
 				];
 
 				$res = $this->customer_model->update_customer($data);
-				print_r($res);
+				// print_r($res);
 				redirect('/customer');
 			} else {
 				$this->output->set_status_header(400);
